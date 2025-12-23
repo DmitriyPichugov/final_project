@@ -42,7 +42,7 @@ class UserLoginView(LoginView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["title"] = "DesDistrict - Авторизация"
+        context["title"] = "StroyBase - Авторизация"
         return context
 
 
@@ -69,7 +69,7 @@ class UserRegistrationView(CreateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["title"] = "DesDistrict - Регистрация"
+        context["title"] = "StroyBase - Регистрация"
         return context
 
 
@@ -91,7 +91,7 @@ class UserProfileView(LoginRequiredMixin, CacheMixin, UpdateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["title"] = "DesDistrict - Кабинет"
+        context["title"] = "StroyBase - Кабинет"
 
         orders = (
             Order.objects.filter(user=self.request.user)
@@ -115,7 +115,7 @@ class UserCartView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["title"] = "DesDistrict - Корзина"
+        context["title"] = "StroyBase - Корзина"
         return context
 
 

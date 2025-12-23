@@ -37,7 +37,7 @@ class CatalogView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["title"] = "DesDistrict - Каталог"
+        context["title"] = "StroyBase - Каталог"
         context["slug_url"] = self.kwargs.get("category_slug")
         context["categories"] = Categories.objects.all()
         return context

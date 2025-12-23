@@ -10,8 +10,8 @@ class IndexView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["title"] = "DesDistrict - Главная"
-        context["content"] = "Магазин мебели DesDistrict"
+        context["title"] = "StroyBase - Главная"
+        context["content"] = "Магазин стройматериалов StroyBase"
         return context
 
 
@@ -20,7 +20,7 @@ class AboutView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context["title"] = "DesDistrict - О нас"
+        context["title"] = "StroyBase - О нас"
         context["content"] = "О нас"
         context["text_on_page"] = (
             "Текст о том, почему этот магазин такой классныйи какой хороший товар"
