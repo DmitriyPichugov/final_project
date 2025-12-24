@@ -1,58 +1,66 @@
 [
     {
         "model": "goods.categories",
-        "pk": 4,
+        "pk": 18,
         "fields": {
             "name": "Все товары",
-            "slug": "all"
+            "slug": "vse-tovary"
         }
     },
     {
         "model": "goods.categories",
-        "pk": 5,
+        "pk": 20,
         "fields": {
-            "name": "Кухня",
-            "slug": "kuhnya"
+            "name": "Стеновые и фасадные материалы",
+            "slug": "stenovye-i-fasadnye-materialy"
         }
     },
     {
         "model": "goods.categories",
-        "pk": 6,
+        "pk": 21,
         "fields": {
-            "name": "Спальня",
-            "slug": "spalnya"
+            "name": "Кровля, водосточные системы",
+            "slug": "krovlya-vodostochnye-sistemy"
         }
     },
     {
         "model": "goods.categories",
-        "pk": 7,
+        "pk": 22,
         "fields": {
-            "name": "Гостинная",
-            "slug": "gostinnaya"
+            "name": "Древесно-плитные материалы",
+            "slug": "drevesno-plitnye-materialy"
         }
     },
     {
         "model": "goods.categories",
-        "pk": 8,
+        "pk": 23,
         "fields": {
-            "name": "Офис",
-            "slug": "ofis"
+            "name": "Цемент и сыпучие материалы",
+            "slug": "cement-i-sypuchie-materialy"
         }
     },
     {
         "model": "goods.categories",
-        "pk": 9,
+        "pk": 24,
         "fields": {
-            "name": "Фурнитура",
-            "slug": "furnitura"
+            "name": "Влагозащита и пароизоляция",
+            "slug": "vlagozashita-i-paroizolyaciya"
         }
     },
     {
         "model": "goods.categories",
-        "pk": 10,
+        "pk": 25,
         "fields": {
-            "name": "Декор",
-            "slug": "dekor"
+            "name": "Металлопрокат",
+            "slug": "metalloprokat"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 26,
+        "fields": {
+            "name": "Теплоизоляция и шумоизоляция",
+            "slug": "teploizolyaciya-i-shumoizolyaciya"
         }
     }
 ]
